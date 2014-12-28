@@ -9,10 +9,12 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.pkmmte.circularimageview.CircularImageView;
 import com.pkmmte.techdissected.R;
 import com.pkmmte.techdissected.model.CreditsLibraryItem;
 import com.pkmmte.techdissected.util.RoundTransform;
-//import com.pkmmte.view.CircularImageView;
+
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
@@ -70,7 +72,7 @@ public class CreditsLibraryAdapter extends BaseAdapter {
 			
 			holder = new ViewHolder();
 			holder.mCard = (RelativeLayout) convertView.findViewById(R.id.Card);
-			//holder.imgAvatar = (CircularImageView) convertView.findViewById(R.id.imgAvatar);
+			holder.imgAvatar = (CircularImageView) convertView.findViewById(R.id.imgAvatar);
 			holder.txtTitle = (TextView) convertView.findViewById(R.id.txtTitle);
 			holder.txtAuthor = (TextView) convertView.findViewById(R.id.txtAuthor);
 			holder.txtLicense = (TextView) convertView.findViewById(R.id.txtLicense);
@@ -90,15 +92,15 @@ public class CreditsLibraryAdapter extends BaseAdapter {
 			}
 		});
 		
-		//Picasso.with(mContext).load(mLibrary.getAvatar()).error(R.drawable.dev_avatar).transform(new RoundTransform(0, 0)).into(holder.imgAvatar);
-		/*holder.imgAvatar.setOnClickListener(new View.OnClickListener() {
+		Picasso.with(mContext).load(mLibrary.getAvatar()).error(R.drawable.dev_avatar).transform(new RoundTransform(0, 0)).into(holder.imgAvatar);
+		holder.imgAvatar.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				if(mListener != null) {
 					mListener.onClick(mLibrary.getLink());
 				}
 			}
-		});*/
+		});
 		
 		holder.txtTitle.setText(mLibrary.getTitle());
 		holder.txtAuthor.setText(mLibrary.getAuthor());
@@ -112,7 +114,7 @@ public class CreditsLibraryAdapter extends BaseAdapter {
 	
 	private class ViewHolder {
 		public RelativeLayout mCard;
-		//public CircularImageView imgAvatar;
+		public CircularImageView imgAvatar;
 		public TextView txtTitle;
 		public TextView txtAuthor;
 		public TextView txtLicense;

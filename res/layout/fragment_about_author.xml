@@ -6,7 +6,7 @@
   android:background="@drawable/card_bg"
   android:padding="12dp">
 
-  <!-- <com.pkmmte.view.CircularImageView
+  <com.pkmmte.view.CircularImageView
     android:id="@+id/imgAvatar"
     android:layout_width="56dp"
     android:layout_height="56dp"
@@ -17,7 +17,7 @@
     app:selector="true"
     app:selector_color="@color/brand_orange_light_ex"
     app:selector_stroke_color="@color/brand_orange"
-    app:selector_stroke_width="2dp" /> -->
+    app:selector_stroke_width="2dp" />
 
   <TextView
     android:id="@+id/txtName"

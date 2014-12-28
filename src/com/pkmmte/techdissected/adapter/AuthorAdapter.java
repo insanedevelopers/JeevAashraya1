@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.pkmmte.circularimageview.CircularImageView;
 import com.pkmmte.techdissected.R;
 import com.pkmmte.techdissected.model.Author;
 import com.squareup.picasso.Picasso;
@@ -61,7 +63,7 @@ public class AuthorAdapter extends BaseAdapter{
 			convertView = mInflater.inflate(R.layout.fragment_about_author, parent, false);
 
 			holder = new ViewHolder();
-			//holder.imgAvatar = (CircularImageView) convertView.findViewById(R.id.imgAvatar);
+			holder.imgAvatar = (CircularImageView) convertView.findViewById(R.id.imgAvatar);
 			holder.txtName = (TextView) convertView.findViewById(R.id.txtName);
 			holder.txtDescription = (TextView) convertView.findViewById(R.id.txtDescription);
 
@@ -71,7 +73,7 @@ public class AuthorAdapter extends BaseAdapter{
 			holder = (ViewHolder) convertView.getTag();
 		}
 
-		//Picasso.with(mContext).load(mAuthor.getAvatar()).placeholder(R.drawable.dev_avatar).error(R.drawable.dev_avatar).into(holder.imgAvatar);
+		Picasso.with(mContext).load(mAuthor.getAvatar()).placeholder(R.drawable.dev_avatar).error(R.drawable.dev_avatar).into(holder.imgAvatar);
 		holder.txtName.setText(mAuthor.getName());
 		holder.txtDescription.setText(mAuthor.getDescription());
 
@@ -79,7 +81,7 @@ public class AuthorAdapter extends BaseAdapter{
 	}
 
 	private class ViewHolder {
-		//public CircularImageView imgAvatar;
+		public CircularImageView imgAvatar;
 		public TextView txtName;
 		public TextView txtDescription;
 	}

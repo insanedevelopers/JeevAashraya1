@@ -45,7 +45,7 @@
     </LinearLayout>
   </ScrollView>
 
-  <!-- <com.pkmmte.view.CircularImageView
+  <com.pkmmte.view.CircularImageView
     android:id="@+id/imgAvatar"
     android:layout_width="@dimen/about_dialog_avatar"
     android:layout_height="@dimen/about_dialog_avatar"
@@ -62,7 +62,7 @@
     app:selector_color="#4433b5e5"
     app:selector_stroke_color="#880099CC"
     app:selector_stroke_width="2dp"
-    app:shadow="true" /> -->
+    app:shadow="true" />
 
   <TextView
     android:layout_width="match_parent"

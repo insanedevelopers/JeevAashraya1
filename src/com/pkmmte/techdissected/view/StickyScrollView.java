@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
 import android.widget.ScrollView;
-//import com.emilsjolander.components.StickyScrollViewItems.R;
+import com.emilsjolander.components.StickyScrollViewItems.R;
 import java.util.ArrayList;
 
 /**
@@ -80,7 +80,7 @@ public class StickyScrollView extends ScrollView {
 		super(context, attrs, defStyle);
 		setup();
 
-		/*TypedArray a =
+		TypedArray a =
 			context.obtainStyledAttributes(attrs, R.styleable.StickyScrollView, defStyle, 0);
 
 		final float density = context.getResources().getDisplayMetrics().density;
@@ -96,7 +96,7 @@ public class StickyScrollView extends ScrollView {
 			mShadowDrawable = context.getResources().getDrawable(shadowDrawableRes);
 		}
 
-		a.recycle();*/
+		a.recycle();
 	}
 
 	/**

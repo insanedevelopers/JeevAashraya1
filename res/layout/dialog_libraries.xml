@@ -7,7 +7,7 @@
   android:background="@drawable/selector_card_bg"
   android:clickable="true" >
 
-  <!-- <com.pkmmte.view.CircularImageView
+  <com.pkmmte.view.CircularImageView
     android:id="@+id/imgAvatar"
     android:layout_width="56dp"
     android:layout_height="56dp"
@@ -19,7 +19,7 @@
     app:selector="true"
     app:selector_color="#4433b5e5"
     app:selector_stroke_color="#880099CC"
-    app:selector_stroke_width="2dp" /> -->
+    app:selector_stroke_width="2dp" />
 
   <LinearLayout
     android:id="@+id/authorInfo"
