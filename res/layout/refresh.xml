@@ -4,7 +4,7 @@
   android:layout_width="@dimen/action_height"
   android:layout_height="@dimen/action_height">
 
-  <fr.castorflex.android.circularprogressbar.CircularProgressBar
+<fr.castorflex.android.circularprogressbar.CircularProgressBar
     android:layout_width="32dp"
     android:layout_height="32dp"
     android:layout_gravity="center"

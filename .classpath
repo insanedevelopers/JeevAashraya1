@@ -10,7 +10,6 @@
 	<classpathentry exported="true" kind="lib" path="D:/Libraries/Tech Dissected/repackaged-okhttp-2.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Libraries/Tech Dissected/repackaged-okhttp-urlconnection-2.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Libraries/Tech Dissected/repackaged-okio-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Libraries/android-support-v7-appcompat.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Libraries/picasso-2.4.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
