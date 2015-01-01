@@ -6,7 +6,7 @@
   android:orientation="vertical">
 
 
-  <com.pkmmte.techdissected.view.PkScrollView
+  <org.jeevaashraya.android.view.PkScrollView
     android:id="@+id/stickyScroll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -103,7 +103,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp" />
 
-      <com.pkmmte.techdissected.view.FlowLayout
+      <org.jeevaashraya.android.view.FlowLayout
         android:id="@+id/tagContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -112,5 +112,5 @@
         app:orientation="horizontal"
         app:verticalSpacing="4dp" />
     </LinearLayout>
-  </com.pkmmte.techdissected.view.PkScrollView>
+  </org.jeevaashraya.android.view.PkScrollView>
 </LinearLayout>

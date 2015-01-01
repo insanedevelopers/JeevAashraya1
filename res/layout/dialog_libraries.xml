@@ -6,7 +6,7 @@
   android:layout_height="match_parent"
   android:background="@drawable/selector_card_bg"
   android:clickable="true" >
-
+<!-- 
   <com.pkmmte.view.CircularImageView
     android:id="@+id/imgAvatar"
     android:layout_width="56dp"
@@ -86,5 +86,5 @@
     android:textSize="12sp"
     android:typeface="monospace"
     android:visibility="gone" />
-
+ -->
 </RelativeLayout>

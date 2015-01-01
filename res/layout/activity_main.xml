@@ -1,4 +1,4 @@
-<com.pkmmte.techdissected.view.PkDrawerLayout
+<org.jeevaashraya.android.view.PkDrawerLayout
   android:id="@+id/drawer_layout"
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
@@ -24,4 +24,4 @@
     android:listSelector="@drawable/selector_preview_overlay"
     android:scrollbars="none" />
 
-</com.pkmmte.techdissected.view.PkDrawerLayout>
+</org.jeevaashraya.android.view.PkDrawerLayout>

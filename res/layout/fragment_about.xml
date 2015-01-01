@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.pkmmte.techdissected.view.HeaderGridView
+<org.jeevaashraya.android.view.HeaderGridView
   android:id="@+id/mGrid"
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"

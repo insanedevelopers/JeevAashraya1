@@ -4,7 +4,7 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <TextView
+  <!-- <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FF252e38"
@@ -65,11 +65,68 @@
     android:text="Donate"
     android:textColor="@color/white"
     android:textSize="20sp" />
+    
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#FF2f4154" /> -->
+
+
+
+<Button
+    android:id="@+id/btnFavorites"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_preview_overlay"
+    android:drawableLeft="@drawable/ic_action_favorite_full"
+    android:drawablePadding="8dp"
+    android:ellipsize="end"
+    android:fontFamily="sans-serif-light"
+    android:gravity="left|center_vertical"
+    android:maxLines="1"
+    android:minHeight="0dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:text="Favorites"
+    android:textColor="@color/white"
+    android:textSize="20sp" />
 
   <View
     android:layout_width="match_parent"
     android:layout_height="1dp"
     android:background="#FF2f4154" />
+
+  <Button
+    android:id="@+id/btnSettings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_preview_overlay"
+    android:drawableLeft="@drawable/ic_action_settings"
+    android:drawablePadding="8dp"
+    android:ellipsize="end"
+    android:fontFamily="sans-serif-light"
+    android:gravity="left|center_vertical"
+    android:maxLines="1"
+    android:minHeight="0dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:text="Settings"
+    android:textColor="@color/white"
+    android:textSize="20sp" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#FF2f4154" />
+
+
+
+
+
+
 
   <Button
     android:id="@+id/btnPKRSS"
@@ -87,7 +144,10 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="8dp"
-    android:text="Powered by PkRSS"
+    android:text="Powered by Insane Developers"
     android:textColor="@color/white"
     android:textSize="20sp" />
+    
+    
+    
 </LinearLayout>

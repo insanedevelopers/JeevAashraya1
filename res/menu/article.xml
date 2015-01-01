@@ -1,10 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  tools:context="com.pkmmte.techdissected.activity.ArticleActivity">
+  tools:context="org.jeevaashraya.android.activity.ArticleActivity">
 
   <item
     android:id="@+id/action_share"
-    android:actionProviderClass="com.pkmmte.techdissected.view.CustomShareActionProvider"
+    android:actionProviderClass="org.jeevaashraya.android.view.CustomShareActionProvider"
     android:icon="@drawable/ic_action_share"
     android:menuCategory="system"
     android:orderInCategory="100"

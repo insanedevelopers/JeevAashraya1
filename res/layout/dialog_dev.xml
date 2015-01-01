@@ -5,7 +5,7 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   tools:ignore="ContentDescription" >
-
+<!-- 
   <ImageView
     android:id="@+id/imgBanner"
     android:layout_width="match_parent"
@@ -75,5 +75,5 @@
     android:text="@string/dev_name"
     android:textColor="@color/white"
     android:textSize="@dimen/about_dialog_name" />
-
+ -->
 </RelativeLayout>
